@@ -1,20 +1,56 @@
-# Classic Arcade Game Clone Project
+# Classic Frogger Type Arcade Game
 
-## Table of Contents
+Frogger type game project completed as part of Udacity's Front End Web Developer nanodegree.
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+## Playing
 
-## Instructions
+Try to get all the way to the water without getting squashed by one of the moving objects.  Use the up/down/left/right arrow keys to control your character.
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/2013/view) for self-checking your submission.
+## Getting Started
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+After download, install to any local directory and open index.html to play the game.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+### Prerequisites
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+A web browser is required.
+
+
+### Installing
+
+Step 1
+
+```
+Download or clone the files
+```
+
+Step 2
+
+```
+Navigate to the directory where you downloaded or cloned the files.
+```
+
+Step 3
+
+```
+Edit html, java script, and css using your favorite editor for web development
+```
+
+## Deployment
+
+To deploy, install the static files on a web server
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This is built using Udacity's starter project for the memory game assignment.  It will not be actively worked on and contributed to.
+
+
+## Authors
+
+* **Udacity Staff** - *Initial work* - [Udacity](https://udacity.com)
+* **Mike Little** - *Final work* 
+
+## Acknowledgments
+
+* Udacity staff for a nice starter project code base
+
+

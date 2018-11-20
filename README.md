@@ -6,6 +6,8 @@ Frogger type game project completed as part of Udacity's Front End Web Developer
 
 Try to get all the way to the water without getting squashed by one of the moving objects.  Use the up/down/left/right arrow keys to control your character.
 
+Play here now:  https://mike-little.github.io/udacity-frogger-game/
+
 ## Getting Started
 
 After download, install to any local directory and open index.html to play the game.

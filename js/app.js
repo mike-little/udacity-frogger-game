@@ -1,3 +1,4 @@
+'use strict';
 
 //
 // Enemy - enemies our player must avoid
@@ -28,8 +29,8 @@ class Enemy {
     collisionOccurred() {
         var enemy = this;
         var collision = (player, enemy) => {
-            return (player.x <= enemy.x + 45 && player.x >= enemy.x - 45) &&
-                (player.y <= enemy.y + 45 && player.y >= enemy.y - 45)};
+            return (player.x <= enemy.x + 64 && player.x >= enemy.x - 64) &&
+                (player.y <= enemy.y + 64 && player.y >= enemy.y - 64)};
         return collision(player, enemy);
     }
 };
@@ -53,8 +54,8 @@ class Player {
         }
 
         // Don't allow off canvas to right
-        if (this.x > 450) {
-            this.x = 450;
+        if (this.x > 410) {
+            this.x = 410;
         }
 
         // Don't allow off canvas down
@@ -65,7 +66,7 @@ class Player {
         // Player won, made it to top
         if (this.y < 0) {
             youWonSound.play();
-            player.resetPosition();
+            this.resetPosition();
         }
 
     }
